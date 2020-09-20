@@ -1,0 +1,8 @@
+fr.rphstudio.codingdojo.students.Student27 -> fr.rphstudio.codingdojo.students.Student27:
+    boolean chargefull -> chargefull
+    void <init>(fr.rphstudio.codingdojo.game.Pod) -> <init>
+    boolean needcharge() -> needcharge
+    int chargingChekPoint() -> chargingChekPoint
+    float mouvOne() -> mouvOne
+    float mouvTwo() -> mouvTwo
+    void process(int) -> process

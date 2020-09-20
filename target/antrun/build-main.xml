@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <exec executable="/bin/bash">
+    <arg value="resources/sync_dojo_jars.sh"/>
+    <arg value="-a"/>
+    <arg value="upload"/>
+    <arg value="-i"/>
+    <arg value="Student27"/>
+    <arg value="-j"/>
+    <arg value="/Users/cappydev/Downloads/codingfactory-piscine_studentplugin-master/target/Student27-2.1-p.jar"/>
+  </exec>
+</target>
+</project>
